@@ -1,13 +1,13 @@
 <?php
 
-namespace October\Rain\Config;
+namespace Jubayed\ConfigWriter;
 
-use October\Rain\Config\Repository;
+use Jubayed\ConfigWriter\Repository;
 use Illuminate\Filesystem\Filesystem;
-use October\Rain\Config\DataWriter\FileWriter;
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Jubayed\ConfigWriter\DataWriter\FileWriter;
+use Illuminate\Support\ServiceProvider;
 
-class ServiceProvider extends BaseServiceProvider
+class ConfigWriterServiceProvider extends ServiceProvider
 {
     /**
      * Register the service provider.

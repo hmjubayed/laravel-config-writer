@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use October\Rain\Config\DataWriter\Rewrite;
+use Jubayed\ConfigWriter\DataWriter\Rewrite;
 
 class RewriteTest extends TestCase
 {
@@ -33,12 +33,12 @@ class RewriteTest extends TestCase
          * Rewrite a single level string
          */
         $contents = file_get_contents(__DIR__ . '../../fixtures/Config/sample-config.php');
-        $contents = $writer->toContent($contents, ['url' => 'http://octobercms.com']);
+        $contents = $writer->toContent($contents, ['url' => 'http://jubayed.com']);
         $result = eval('?>'.$contents);
 
         $this->assertTrue(is_array($result));
         $this->assertArrayHasKey('url', $result);
-        $this->assertEquals('http://octobercms.com', $result['url']);
+        $this->assertEquals('http://jubayed.com', $result['url']);
 
         /*
          * Rewrite a second level string

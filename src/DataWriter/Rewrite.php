@@ -1,13 +1,13 @@
 <?php
 
-namespace October\Rain\Config\DataWriter;
+namespace Jubayed\ConfigWriter\DataWriter;
 
 use Exception;
 
 /**
  * Configuration rewriter
  *
- * https://github.com/daftspunk/laravel-config-writer
+ * https://github.com/jubayed/laravel-config-writer
  *
  * This class lets you rewrite array values inside a basic configuration file
  * that returns a single array definition (a Laravel config file) whilst maintaining

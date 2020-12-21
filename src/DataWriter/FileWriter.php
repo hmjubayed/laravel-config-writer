@@ -1,9 +1,9 @@
 <?php
 
-namespace October\Rain\Config\DataWriter;
+namespace Jubayed\ConfigWriter\DataWriter;
 
 use Illuminate\Filesystem\Filesystem;
-use October\Rain\Config\DataWriter\Rewrite;
+use Jubayed\ConfigWriter\DataWriter\Rewrite;
 
 class FileWriter
 {
@@ -24,7 +24,7 @@ class FileWriter
     /**
      * The config rewriter object.
      *
-     * @var \October\Rain\Config\DataWriter\Rewrite
+     * @var \Jubayed\ConfigWriter\DataWriter\Rewrite
      */
     protected $rewriter;
 

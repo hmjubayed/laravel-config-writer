@@ -1,22 +1,18 @@
 {
-    "name": "daftspunk/laravel-config-writer",
+    "name": "jubayed/laravel-config-writer",
     "description": "Laravel provider to be able to rewrite configuration",
-    "homepage": "http://octobercms.com",
+    "homepage": "http://jubayed.com",
     "keywords": ["october cms", "october", "laravel", "config", "write", "provider"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
-            "email": "aleksey.bobkov@gmail.com"
-        },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com"
+            "name": "Jubayed Hossain",
+            "email": "support@jubayed.net"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
-        "illuminate/config": "~5.0."
+        "php": "^7.4.0",
+        "illuminate/config": "^8.0."
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"
