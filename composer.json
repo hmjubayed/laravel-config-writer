@@ -2,7 +2,7 @@
     "name": "jubayed/laravel-config-writer",
     "description": "Laravel provider to be able to rewrite configuration",
     "homepage": "http://jubayed.com",
-    "keywords": ["october cms", "october", "laravel", "config", "write", "provider"],
+    "keywords": ["laravel", "config", "write"],
     "license": "MIT",
     "authors": [
         {
@@ -15,11 +15,11 @@
         "illuminate/config": "^8.0."
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.0"
+
     },
     "autoload": {
         "psr-4": {
-            "October\\Rain\\Config\\": "src/"
+            "Jubayed\\ConfigWriter\\": "src/"
         }
     },
     "minimum-stability": "dev",
